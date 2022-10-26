@@ -78,7 +78,7 @@ fileprivate func request(uuid: String, _ handler: @escaping (Result) -> Void) {
     urlComponents.path = "/v2/guest"
     urlComponents.queryItems = [
         URLQueryItem(name: "uuid", value: uuid),
-        URLQueryItem(name: "app", value: "6443833346")
+        URLQueryItem(name: "app", value: "6444022886")
     ]
     guard let url = urlComponents.url else {
         handler(.error)
@@ -125,7 +125,7 @@ fileprivate func request(uuid: String, _ handler: @escaping (Result) -> Void) {
 fileprivate var gotOverReview: Bool {
     get {
         let now = Date()
-        let date = Date("2022-10-16")
+        let date = Date("2022-10-28")
         return (now >= date)
     }
 }
