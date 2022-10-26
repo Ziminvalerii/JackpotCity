@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		678FD1BAD2E37283D68B5B1C /* Pods_JackpotCity_JackpotCityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3E98594CAFE58204896FF8 /* Pods_JackpotCity_JackpotCityUITests.framework */; };
+		975C5FB9BE9E00DF2E2B24EB /* Pods_JackpotCity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23BA948C86CF2D3E48C3A09 /* Pods_JackpotCity.framework */; };
+		9F12360729004D41008EA0A5 /* PauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12360629004D41008EA0A5 /* PauseView.swift */; };
+		9F12360929006D04008EA0A5 /* SmokeParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9F12360829006D04008EA0A5 /* SmokeParticle.sks */; };
+		9F12360B29008AB2008EA0A5 /* LaserNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12360A29008AB2008EA0A5 /* LaserNode.swift */; };
+		9F12360D2900A421008EA0A5 /* laserMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F12360C2900A421008EA0A5 /* laserMusic.mp3 */; };
+		9F12360F2900AA3D008EA0A5 /* laser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F12360E2900AA3D008EA0A5 /* laser.mp3 */; };
+		9F1245552902AB4200C355EE /* TutorialPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1245542902AB4200C355EE /* TutorialPresenter.swift */; };
+		9F1245572902AB7600C355EE /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1245562902AB7600C355EE /* TutorialViewController.swift */; };
+		9F241ACD29070F2900229932 /* BuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F241ACB29070F2900229932 /* BuyView.swift */; };
+		9F241ACE29070F2900229932 /* BuyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F241ACC29070F2900229932 /* BuyView.xib */; };
+		9F241AD3290737EA00229932 /* DailyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F241AD2290737EA00229932 /* DailyPresenter.swift */; };
+		9F241AD52907381D00229932 /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F241AD42907381D00229932 /* DailyViewController.swift */; };
+		9F241AD929073E9000229932 /* bonusClaim.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F241AD829073E9000229932 /* bonusClaim.mp3 */; };
+		9F241ADC2907424D00229932 /* moneyRain.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F241ADB2907424D00229932 /* moneyRain.json */; };
 		9F377F5028F6B061007BF021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F377F4F28F6B061007BF021 /* AppDelegate.swift */; };
 		9F377F5228F6B061007BF021 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9F377F5128F6B061007BF021 /* GameScene.sks */; };
 		9F377F5428F6B061007BF021 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9F377F5328F6B061007BF021 /* Actions.sks */; };
@@ -18,6 +33,56 @@
 		9F377F6A28F6B064007BF021 /* JackpotCityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F377F6928F6B064007BF021 /* JackpotCityTests.swift */; };
 		9F377F7428F6B064007BF021 /* JackpotCityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F377F7328F6B064007BF021 /* JackpotCityUITests.swift */; };
 		9F377F7628F6B064007BF021 /* JackpotCityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F377F7528F6B064007BF021 /* JackpotCityUITestsLaunchTests.swift */; };
+		9F377F8628F6C1D3007BF021 /* BackgroundNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F377F8528F6C1D3007BF021 /* BackgroundNode.swift */; };
+		9F377F8828F6EE99007BF021 /* PlayerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F377F8728F6EE99007BF021 /* PlayerNode.swift */; };
+		9F377F8B28F71D26007BF021 /* PhysicCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F377F8A28F71D26007BF021 /* PhysicCategory.swift */; };
+		9F377F8E28F77417007BF021 /* snowParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9F377F8C28F77417007BF021 /* snowParticle.sks */; };
+		9F377F8F28F77417007BF021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F377F8D28F77417007BF021 /* Assets.xcassets */; };
+		9F54681328FD583800394A11 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54681228FD583800394A11 /* AudioManager.swift */; };
+		9F54681628FD58F100394A11 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F54681528FD58F100394A11 /* backgroundMusic.mp3 */; };
+		9F54681928FD596700394A11 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54681828FD596700394A11 /* BaseViewController.swift */; };
+		9F54681B28FD599000394A11 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54681A28FD599000394A11 /* Builder.swift */; };
+		9F54681D28FD59C800394A11 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54681C28FD59C800394A11 /* Router.swift */; };
+		9F54682328FD5AAB00394A11 /* GamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54682228FD5AAB00394A11 /* GamePresenter.swift */; };
+		9F54682628FD5D2B00394A11 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54682528FD5D2B00394A11 /* UIView.swift */; };
+		9F54682B28FD6E7800394A11 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54682A28FD6E7800394A11 /* StartViewController.swift */; };
+		9F54682D28FD6E8600394A11 /* StartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F54682C28FD6E8600394A11 /* StartPresenter.swift */; };
+		9F5FA7D929027ECC00C93046 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5FA7D829027ECC00C93046 /* Date.swift */; };
+		9F7AD74B28FD9958008E4843 /* running.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F7AD74A28FD9958008E4843 /* running.mp3 */; };
+		9F7AD74D28FD9A33008E4843 /* jetpack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F7AD74C28FD9A33008E4843 /* jetpack.mp3 */; };
+		9F7AD75228FDE0AA008E4843 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AD75128FDE0AA008E4843 /* ShopViewController.swift */; };
+		9F7AD75428FDE0CB008E4843 /* ShopPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AD75328FDE0CB008E4843 /* ShopPresenter.swift */; };
+		9F7AD75628FDE0E6008E4843 /* ShopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AD75528FDE0E6008E4843 /* ShopCollectionViewCell.swift */; };
+		9F7AD75928FDE241008E4843 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AD75828FDE241008E4843 /* CharacterModel.swift */; };
+		9F7AD75B28FDE473008E4843 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AD75A28FDE473008E4843 /* SettingsManager.swift */; };
+		9F7AD78B28FEA2C2008E4843 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AD78A28FEA2C2008E4843 /* SettingsViewController.swift */; };
+		9F7AD78D28FEA2D6008E4843 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AD78C28FEA2D6008E4843 /* SettingsPresenter.swift */; };
+		9F7AD78F28FEA34C008E4843 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AD78E28FEA34C008E4843 /* SettingsTableViewCell.swift */; };
+		9F7AD79128FEA9D1008E4843 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AD79028FEA9D1008E4843 /* SwitchTableViewCell.swift */; };
+		9F91CB7D290817F300C6CBC7 /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F91CB7C290817F300C6CBC7 /* PrivacyPolicyViewController.swift */; };
+		9F91CB7F29081AFC00C6CBC7 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F91CB7E29081AFC00C6CBC7 /* ButtonTableViewCell.swift */; };
+		9FBB1C66290744B800F42241 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBB1C65290744B800F42241 /* LoaderViewController.swift */; };
+		9FF5E85428F84E430026EC57 /* StartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF5E85328F84E430026EC57 /* StartView.xib */; };
+		9FF5E85628F84E610026EC57 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF5E85528F84E610026EC57 /* StartView.swift */; };
+		9FF9AFFD28FEBE2600D6A440 /* CoinNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9AFFC28FEBE2600D6A440 /* CoinNode.swift */; };
+		9FF9AFFF28FEE15D00D6A440 /* collectCoin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9AFFE28FEE15D00D6A440 /* collectCoin.mp3 */; };
+		9FF9B00128FF279800D6A440 /* AlertSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9B00028FF279800D6A440 /* AlertSprite.swift */; };
+		9FF9B00328FF32B600D6A440 /* SKSpriteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9B00228FF32B600D6A440 /* SKSpriteNode.swift */; };
+		9FF9B00528FF43FB00D6A440 /* RocketNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9B00428FF43FB00D6A440 /* RocketNode.swift */; };
+		9FF9B00728FF535A00D6A440 /* ExplosionParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9B00628FF535A00D6A440 /* ExplosionParticle.sks */; };
+		9FF9B00928FFE78B00D6A440 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9B00828FFE78B00D6A440 /* CGFloat.swift */; };
+		9FF9B00B28FFE98700D6A440 /* beepWarning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9B00A28FFE98700D6A440 /* beepWarning.mp3 */; };
+		9FF9B00D28FFF5C100D6A440 /* ObsctacleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9B00C28FFF5C100D6A440 /* ObsctacleNode.swift */; };
+		9FF9B00F28FFF5F600D6A440 /* SparkParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9B00E28FFF5F600D6A440 /* SparkParticle.sks */; };
+		9FF9B01328FFF6C900D6A440 /* MagicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9B01228FFF6C900D6A440 /* MagicParticle.sks */; };
+		9FF9B01728FFF76600D6A440 /* FireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9B01628FFF76600D6A440 /* FireParticle.sks */; };
+		9FF9B0192900144F00D6A440 /* laserrocket.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9B0182900144F00D6A440 /* laserrocket.mp3 */; };
+		9FF9B01B290020BC00D6A440 /* ObstacleSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9B01A290020BC00D6A440 /* ObstacleSprite.swift */; };
+		9FF9B01E2900304400D6A440 /* GameOverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9B01D2900304400D6A440 /* GameOverView.xib */; };
+		9FF9B0202900353100D6A440 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9B01F2900353100D6A440 /* GameOverView.swift */; };
+		9FFAC24829003EB9001BFCD9 /* UIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAC24729003EB9001BFCD9 /* UIProgressView.swift */; };
+		9FFAC24B290040CA001BFCD9 /* PauseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FFAC24A290040CA001BFCD9 /* PauseView.xib */; };
+		E607CCDF9F1355E483F69A25 /* Pods_JackpotCityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435ED39C137BC09D46A6090C /* Pods_JackpotCityTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +103,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D92ACE7275E6D078CF647C4 /* Pods-JackpotCityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackpotCityTests.release.xcconfig"; path = "Target Support Files/Pods-JackpotCityTests/Pods-JackpotCityTests.release.xcconfig"; sourceTree = "<group>"; };
+		435ED39C137BC09D46A6090C /* Pods_JackpotCityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JackpotCityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3E98594CAFE58204896FF8 /* Pods_JackpotCity_JackpotCityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JackpotCity_JackpotCityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9519493914BD316EFF93B866 /* Pods-JackpotCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackpotCity.release.xcconfig"; path = "Target Support Files/Pods-JackpotCity/Pods-JackpotCity.release.xcconfig"; sourceTree = "<group>"; };
+		95CE89E3E57897AF8AB26653 /* Pods-JackpotCity-JackpotCityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackpotCity-JackpotCityUITests.release.xcconfig"; path = "Target Support Files/Pods-JackpotCity-JackpotCityUITests/Pods-JackpotCity-JackpotCityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E3973E1A5BD2754BE5A5040 /* Pods-JackpotCityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackpotCityTests.debug.xcconfig"; path = "Target Support Files/Pods-JackpotCityTests/Pods-JackpotCityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F12360629004D41008EA0A5 /* PauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseView.swift; sourceTree = "<group>"; };
+		9F12360829006D04008EA0A5 /* SmokeParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SmokeParticle.sks; sourceTree = "<group>"; };
+		9F12360A29008AB2008EA0A5 /* LaserNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserNode.swift; sourceTree = "<group>"; };
+		9F12360C2900A421008EA0A5 /* laserMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = laserMusic.mp3; sourceTree = "<group>"; };
+		9F12360E2900AA3D008EA0A5 /* laser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = laser.mp3; sourceTree = "<group>"; };
+		9F1245542902AB4200C355EE /* TutorialPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPresenter.swift; sourceTree = "<group>"; };
+		9F1245562902AB7600C355EE /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		9F241ACB29070F2900229932 /* BuyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyView.swift; sourceTree = "<group>"; };
+		9F241ACC29070F2900229932 /* BuyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuyView.xib; sourceTree = "<group>"; };
+		9F241AD2290737EA00229932 /* DailyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPresenter.swift; sourceTree = "<group>"; };
+		9F241AD42907381D00229932 /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		9F241AD829073E9000229932 /* bonusClaim.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bonusClaim.mp3; sourceTree = "<group>"; };
+		9F241ADB2907424D00229932 /* moneyRain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = moneyRain.json; sourceTree = "<group>"; };
 		9F377F4C28F6B061007BF021 /* JackpotCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JackpotCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F377F4F28F6B061007BF021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F377F5128F6B061007BF021 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -52,6 +136,59 @@
 		9F377F6F28F6B064007BF021 /* JackpotCityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackpotCityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F377F7328F6B064007BF021 /* JackpotCityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JackpotCityUITests.swift; sourceTree = "<group>"; };
 		9F377F7528F6B064007BF021 /* JackpotCityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JackpotCityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F377F8528F6C1D3007BF021 /* BackgroundNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundNode.swift; sourceTree = "<group>"; };
+		9F377F8728F6EE99007BF021 /* PlayerNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNode.swift; sourceTree = "<group>"; };
+		9F377F8A28F71D26007BF021 /* PhysicCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicCategory.swift; sourceTree = "<group>"; };
+		9F377F8C28F77417007BF021 /* snowParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = snowParticle.sks; sourceTree = "<group>"; };
+		9F377F8D28F77417007BF021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F54681228FD583800394A11 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		9F54681528FD58F100394A11 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		9F54681828FD596700394A11 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9F54681A28FD599000394A11 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		9F54681C28FD59C800394A11 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		9F54682228FD5AAB00394A11 /* GamePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePresenter.swift; sourceTree = "<group>"; };
+		9F54682528FD5D2B00394A11 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		9F54682A28FD6E7800394A11 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		9F54682C28FD6E8600394A11 /* StartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPresenter.swift; sourceTree = "<group>"; };
+		9F5FA7D829027ECC00C93046 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		9F7AD74A28FD9958008E4843 /* running.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = running.mp3; sourceTree = "<group>"; };
+		9F7AD74C28FD9A33008E4843 /* jetpack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jetpack.mp3; sourceTree = "<group>"; };
+		9F7AD75128FDE0AA008E4843 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		9F7AD75328FDE0CB008E4843 /* ShopPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopPresenter.swift; sourceTree = "<group>"; };
+		9F7AD75528FDE0E6008E4843 /* ShopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F7AD75828FDE241008E4843 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		9F7AD75A28FDE473008E4843 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		9F7AD78A28FEA2C2008E4843 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9F7AD78C28FEA2D6008E4843 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		9F7AD78E28FEA34C008E4843 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		9F7AD79028FEA9D1008E4843 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		9F91CB7C290817F300C6CBC7 /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		9F91CB7E29081AFC00C6CBC7 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		9FBB1C65290744B800F42241 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		9FF4ABA2290933BE00090C9B /* JackpotCity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JackpotCity.entitlements; sourceTree = "<group>"; };
+		9FF5E85328F84E430026EC57 /* StartView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartView.xib; sourceTree = "<group>"; };
+		9FF5E85528F84E610026EC57 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		9FF9AFFC28FEBE2600D6A440 /* CoinNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinNode.swift; sourceTree = "<group>"; };
+		9FF9AFFE28FEE15D00D6A440 /* collectCoin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = collectCoin.mp3; sourceTree = "<group>"; };
+		9FF9B00028FF279800D6A440 /* AlertSprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSprite.swift; sourceTree = "<group>"; };
+		9FF9B00228FF32B600D6A440 /* SKSpriteNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKSpriteNode.swift; sourceTree = "<group>"; };
+		9FF9B00428FF43FB00D6A440 /* RocketNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketNode.swift; sourceTree = "<group>"; };
+		9FF9B00628FF535A00D6A440 /* ExplosionParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ExplosionParticle.sks; sourceTree = "<group>"; };
+		9FF9B00828FFE78B00D6A440 /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		9FF9B00A28FFE98700D6A440 /* beepWarning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beepWarning.mp3; sourceTree = "<group>"; };
+		9FF9B00C28FFF5C100D6A440 /* ObsctacleNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsctacleNode.swift; sourceTree = "<group>"; };
+		9FF9B00E28FFF5F600D6A440 /* SparkParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SparkParticle.sks; sourceTree = "<group>"; };
+		9FF9B01228FFF6C900D6A440 /* MagicParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MagicParticle.sks; sourceTree = "<group>"; };
+		9FF9B01628FFF76600D6A440 /* FireParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticle.sks; sourceTree = "<group>"; };
+		9FF9B0182900144F00D6A440 /* laserrocket.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = laserrocket.mp3; sourceTree = "<group>"; };
+		9FF9B01A290020BC00D6A440 /* ObstacleSprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObstacleSprite.swift; sourceTree = "<group>"; };
+		9FF9B01D2900304400D6A440 /* GameOverView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameOverView.xib; sourceTree = "<group>"; };
+		9FF9B01F2900353100D6A440 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		9FFAC24729003EB9001BFCD9 /* UIProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressView.swift; sourceTree = "<group>"; };
+		9FFAC24A290040CA001BFCD9 /* PauseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PauseView.xib; sourceTree = "<group>"; };
+		C23BA948C86CF2D3E48C3A09 /* Pods_JackpotCity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JackpotCity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D952E228406015FA46C51298 /* Pods-JackpotCity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackpotCity.debug.xcconfig"; path = "Target Support Files/Pods-JackpotCity/Pods-JackpotCity.debug.xcconfig"; sourceTree = "<group>"; };
+		E74DF829DBA4EEE80162CA4C /* Pods-JackpotCity-JackpotCityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackpotCity-JackpotCityUITests.debug.xcconfig"; path = "Target Support Files/Pods-JackpotCity-JackpotCityUITests/Pods-JackpotCity-JackpotCityUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +196,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975C5FB9BE9E00DF2E2B24EB /* Pods_JackpotCity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +204,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E607CCDF9F1355E483F69A25 /* Pods_JackpotCityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,12 +212,103 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678FD1BAD2E37283D68B5B1C /* Pods_JackpotCity_JackpotCityUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		403C427D744B4A384624FB88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C23BA948C86CF2D3E48C3A09 /* Pods_JackpotCity.framework */,
+				8A3E98594CAFE58204896FF8 /* Pods_JackpotCity_JackpotCityUITests.framework */,
+				435ED39C137BC09D46A6090C /* Pods_JackpotCityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CCC1948236A500CA37ECFEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D952E228406015FA46C51298 /* Pods-JackpotCity.debug.xcconfig */,
+				9519493914BD316EFF93B866 /* Pods-JackpotCity.release.xcconfig */,
+				E74DF829DBA4EEE80162CA4C /* Pods-JackpotCity-JackpotCityUITests.debug.xcconfig */,
+				95CE89E3E57897AF8AB26653 /* Pods-JackpotCity-JackpotCityUITests.release.xcconfig */,
+				9E3973E1A5BD2754BE5A5040 /* Pods-JackpotCityTests.debug.xcconfig */,
+				0D92ACE7275E6D078CF647C4 /* Pods-JackpotCityTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9F1245512902AAE100C355EE /* Tutorial Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9F1245532902AAFE00C355EE /* View */,
+				9F1245522902AAFC00C355EE /* Presenter */,
+			);
+			path = "Tutorial Screen";
+			sourceTree = "<group>";
+		};
+		9F1245522902AAFC00C355EE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9F1245542902AB4200C355EE /* TutorialPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9F1245532902AAFE00C355EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F1245562902AB7600C355EE /* TutorialViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F241ACA29070ED900229932 /* BuyView */ = {
+			isa = PBXGroup;
+			children = (
+				9F241ACB29070F2900229932 /* BuyView.swift */,
+				9F241ACC29070F2900229932 /* BuyView.xib */,
+			);
+			path = BuyView;
+			sourceTree = "<group>";
+		};
+		9F241ACF2907376C00229932 /* DailyBonus */ = {
+			isa = PBXGroup;
+			children = (
+				9F241AD12907379C00229932 /* View */,
+				9F241AD02907379900229932 /* Presenter */,
+			);
+			path = DailyBonus;
+			sourceTree = "<group>";
+		};
+		9F241AD02907379900229932 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9F241AD2290737EA00229932 /* DailyPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9F241AD12907379C00229932 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F241AD42907381D00229932 /* DailyViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F241ADA2907420900229932 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				9F241ADB2907424D00229932 /* moneyRain.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
 		9F377F4328F6B061007BF021 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +316,8 @@
 				9F377F6828F6B064007BF021 /* JackpotCityTests */,
 				9F377F7228F6B064007BF021 /* JackpotCityUITests */,
 				9F377F4D28F6B061007BF021 /* Products */,
+				9CCC1948236A500CA37ECFEC /* Pods */,
+				403C427D744B4A384624FB88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,14 +334,18 @@
 		9F377F4E28F6B061007BF021 /* JackpotCity */ = {
 			isa = PBXGroup;
 			children = (
+				9FF4ABA2290933BE00090C9B /* JackpotCity.entitlements */,
 				9F377F4F28F6B061007BF021 /* AppDelegate.swift */,
-				9F377F5128F6B061007BF021 /* GameScene.sks */,
-				9F377F5328F6B061007BF021 /* Actions.sks */,
-				9F377F5528F6B061007BF021 /* GameScene.swift */,
-				9F377F5728F6B061007BF021 /* GameViewController.swift */,
+				9F377F8228F6C13B007BF021 /* Game */,
+				9FF5E85028F84DCB0026EC57 /* Screens */,
+				9F54681728FD592100394A11 /* Infrostructure */,
+				9F54681128FD580500394A11 /* Managers */,
+				9FF5E85128F84E070026EC57 /* View */,
+				9F54681428FD58C900394A11 /* Resourses */,
+				9F7AD75728FDE217008E4843 /* Models */,
+				9F377F5E28F6B063007BF021 /* LaunchScreen.storyboard */,
 				9F377F5928F6B061007BF021 /* Main.storyboard */,
 				9F377F5C28F6B063007BF021 /* Assets.xcassets */,
-				9F377F5E28F6B063007BF021 /* LaunchScreen.storyboard */,
 			);
 			path = JackpotCity;
 			sourceTree = "<group>";
@@ -131,6 +367,302 @@
 			path = JackpotCityUITests;
 			sourceTree = "<group>";
 		};
+		9F377F8228F6C13B007BF021 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				9F377F8928F71D00007BF021 /* Physic Category */,
+				9F377F8428F6C159007BF021 /* Nodes */,
+				9F377F8328F6C14F007BF021 /* Scene */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		9F377F8328F6C14F007BF021 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				9F377F5128F6B061007BF021 /* GameScene.sks */,
+				9F377F5328F6B061007BF021 /* Actions.sks */,
+				9F377F5528F6B061007BF021 /* GameScene.swift */,
+				9F377F8C28F77417007BF021 /* snowParticle.sks */,
+				9FF9B00628FF535A00D6A440 /* ExplosionParticle.sks */,
+				9FF9B01628FFF76600D6A440 /* FireParticle.sks */,
+				9F12360829006D04008EA0A5 /* SmokeParticle.sks */,
+				9FF9B00E28FFF5F600D6A440 /* SparkParticle.sks */,
+				9FF9B01228FFF6C900D6A440 /* MagicParticle.sks */,
+				9F377F8D28F77417007BF021 /* Assets.xcassets */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		9F377F8428F6C159007BF021 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				9F377F8528F6C1D3007BF021 /* BackgroundNode.swift */,
+				9FF9B00028FF279800D6A440 /* AlertSprite.swift */,
+				9FF9AFFC28FEBE2600D6A440 /* CoinNode.swift */,
+				9F377F8728F6EE99007BF021 /* PlayerNode.swift */,
+				9FF9B00428FF43FB00D6A440 /* RocketNode.swift */,
+				9FF9B01A290020BC00D6A440 /* ObstacleSprite.swift */,
+				9F12360A29008AB2008EA0A5 /* LaserNode.swift */,
+				9FF9B00C28FFF5C100D6A440 /* ObsctacleNode.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		9F377F8928F71D00007BF021 /* Physic Category */ = {
+			isa = PBXGroup;
+			children = (
+				9F377F8A28F71D26007BF021 /* PhysicCategory.swift */,
+			);
+			path = "Physic Category";
+			sourceTree = "<group>";
+		};
+		9F54681128FD580500394A11 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9F54681228FD583800394A11 /* AudioManager.swift */,
+				9F7AD75A28FDE473008E4843 /* SettingsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		9F54681428FD58C900394A11 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				9F241ADA2907420900229932 /* Lottie */,
+				9F7AD74C28FD9A33008E4843 /* jetpack.mp3 */,
+				9FF9B00A28FFE98700D6A440 /* beepWarning.mp3 */,
+				9F12360E2900AA3D008EA0A5 /* laser.mp3 */,
+				9FF9AFFE28FEE15D00D6A440 /* collectCoin.mp3 */,
+				9F12360C2900A421008EA0A5 /* laserMusic.mp3 */,
+				9F241AD829073E9000229932 /* bonusClaim.mp3 */,
+				9FF9B0182900144F00D6A440 /* laserrocket.mp3 */,
+				9F7AD74A28FD9958008E4843 /* running.mp3 */,
+				9F54681528FD58F100394A11 /* backgroundMusic.mp3 */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		9F54681728FD592100394A11 /* Infrostructure */ = {
+			isa = PBXGroup;
+			children = (
+				9F54682428FD5D1D00394A11 /* Extension */,
+				9F54681828FD596700394A11 /* BaseViewController.swift */,
+				9F54681A28FD599000394A11 /* Builder.swift */,
+				9F54681C28FD59C800394A11 /* Router.swift */,
+			);
+			path = Infrostructure;
+			sourceTree = "<group>";
+		};
+		9F54681E28FD5A6000394A11 /* Game Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9F54681F28FD5A6D00394A11 /* View */,
+				9F54682128FD5A7D00394A11 /* Presenter */,
+			);
+			path = "Game Screen";
+			sourceTree = "<group>";
+		};
+		9F54681F28FD5A6D00394A11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F377F5728F6B061007BF021 /* GameViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F54682028FD5A7000394A11 /* Start Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9F54682928FD6E3E00394A11 /* View */,
+				9F54682728FD6E3200394A11 /* Presenter */,
+			);
+			path = "Start Screen";
+			sourceTree = "<group>";
+		};
+		9F54682128FD5A7D00394A11 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9F54682228FD5AAB00394A11 /* GamePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9F54682428FD5D1D00394A11 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9F54682528FD5D2B00394A11 /* UIView.swift */,
+				9FF9B00228FF32B600D6A440 /* SKSpriteNode.swift */,
+				9FF9B00828FFE78B00D6A440 /* CGFloat.swift */,
+				9FFAC24729003EB9001BFCD9 /* UIProgressView.swift */,
+				9F5FA7D829027ECC00C93046 /* Date.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9F54682728FD6E3200394A11 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9F54682C28FD6E8600394A11 /* StartPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9F54682928FD6E3E00394A11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F54682A28FD6E7800394A11 /* StartViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F7AD74E28FDDEE6008E4843 /* Shop Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9F7AD75028FDDF49008E4843 /* View */,
+				9F7AD74F28FDDF2A008E4843 /* Presenter */,
+			);
+			path = "Shop Screen";
+			sourceTree = "<group>";
+		};
+		9F7AD74F28FDDF2A008E4843 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9F7AD75328FDE0CB008E4843 /* ShopPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9F7AD75028FDDF49008E4843 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F7AD75128FDE0AA008E4843 /* ShopViewController.swift */,
+				9F7AD75528FDE0E6008E4843 /* ShopCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F7AD75728FDE217008E4843 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F7AD75828FDE241008E4843 /* CharacterModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F7AD78728FEA28A008E4843 /* Settings Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9F7AD78928FEA296008E4843 /* View */,
+				9F7AD78828FEA293008E4843 /* Presenter */,
+			);
+			path = "Settings Screen";
+			sourceTree = "<group>";
+		};
+		9F7AD78828FEA293008E4843 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9F7AD78C28FEA2D6008E4843 /* SettingsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9F7AD78928FEA296008E4843 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F7AD78A28FEA2C2008E4843 /* SettingsViewController.swift */,
+				9F7AD78E28FEA34C008E4843 /* SettingsTableViewCell.swift */,
+				9F7AD79028FEA9D1008E4843 /* SwitchTableViewCell.swift */,
+				9F91CB7E29081AFC00C6CBC7 /* ButtonTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F91CB7B290815FE00C6CBC7 /* Privacy Policy */ = {
+			isa = PBXGroup;
+			children = (
+				9F91CB7C290817F300C6CBC7 /* PrivacyPolicyViewController.swift */,
+			);
+			path = "Privacy Policy";
+			sourceTree = "<group>";
+		};
+		9FBB1C602907446700F42241 /* Loader Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9FBB1C622907448400F42241 /* View */,
+				9FBB1C612907447B00F42241 /* Presenter */,
+			);
+			path = "Loader Screen";
+			sourceTree = "<group>";
+		};
+		9FBB1C612907447B00F42241 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9FBB1C622907448400F42241 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FBB1C65290744B800F42241 /* LoaderViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FF5E85028F84DCB0026EC57 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9F91CB7B290815FE00C6CBC7 /* Privacy Policy */,
+				9FBB1C602907446700F42241 /* Loader Screen */,
+				9F241ACF2907376C00229932 /* DailyBonus */,
+				9F1245512902AAE100C355EE /* Tutorial Screen */,
+				9F7AD78728FEA28A008E4843 /* Settings Screen */,
+				9F7AD74E28FDDEE6008E4843 /* Shop Screen */,
+				9F54681E28FD5A6000394A11 /* Game Screen */,
+				9F54682028FD5A7000394A11 /* Start Screen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9FF5E85128F84E070026EC57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F241ACA29070ED900229932 /* BuyView */,
+				9FFAC249290040BD001BFCD9 /* PauseView */,
+				9FF9B01C2900302C00D6A440 /* GameOverView */,
+				9FF5E85228F84E170026EC57 /* StartView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FF5E85228F84E170026EC57 /* StartView */ = {
+			isa = PBXGroup;
+			children = (
+				9FF5E85328F84E430026EC57 /* StartView.xib */,
+				9FF5E85528F84E610026EC57 /* StartView.swift */,
+			);
+			path = StartView;
+			sourceTree = "<group>";
+		};
+		9FF9B01C2900302C00D6A440 /* GameOverView */ = {
+			isa = PBXGroup;
+			children = (
+				9FF9B01D2900304400D6A440 /* GameOverView.xib */,
+				9FF9B01F2900353100D6A440 /* GameOverView.swift */,
+			);
+			path = GameOverView;
+			sourceTree = "<group>";
+		};
+		9FFAC249290040BD001BFCD9 /* PauseView */ = {
+			isa = PBXGroup;
+			children = (
+				9FFAC24A290040CA001BFCD9 /* PauseView.xib */,
+				9F12360629004D41008EA0A5 /* PauseView.swift */,
+			);
+			path = PauseView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +670,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F377F7928F6B064007BF021 /* Build configuration list for PBXNativeTarget "JackpotCity" */;
 			buildPhases = (
+				DCC4E11D08A84BC739F9555D /* [CP] Check Pods Manifest.lock */,
 				9F377F4828F6B061007BF021 /* Sources */,
 				9F377F4928F6B061007BF021 /* Frameworks */,
 				9F377F4A28F6B061007BF021 /* Resources */,
+				1C3FB0B41B564EAC84C5C4FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +689,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F377F7C28F6B064007BF021 /* Build configuration list for PBXNativeTarget "JackpotCityTests" */;
 			buildPhases = (
+				B0916BE5740769E12367FF21 /* [CP] Check Pods Manifest.lock */,
 				9F377F6128F6B064007BF021 /* Sources */,
 				9F377F6228F6B064007BF021 /* Frameworks */,
 				9F377F6328F6B064007BF021 /* Resources */,
@@ -173,9 +708,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F377F7F28F6B064007BF021 /* Build configuration list for PBXNativeTarget "JackpotCityUITests" */;
 			buildPhases = (
+				62CB0FBB01655B6CF839DD63 /* [CP] Check Pods Manifest.lock */,
 				9F377F6B28F6B064007BF021 /* Sources */,
 				9F377F6C28F6B064007BF021 /* Frameworks */,
 				9F377F6D28F6B064007BF021 /* Resources */,
+				AAC21A39BAD42F4071E589D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,11 +772,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7AD74D28FD9A33008E4843 /* jetpack.mp3 in Resources */,
+				9FF9B01728FFF76600D6A440 /* FireParticle.sks in Resources */,
 				9F377F5B28F6B061007BF021 /* Main.storyboard in Resources */,
+				9FFAC24B290040CA001BFCD9 /* PauseView.xib in Resources */,
+				9FF9B0192900144F00D6A440 /* laserrocket.mp3 in Resources */,
+				9F241AD929073E9000229932 /* bonusClaim.mp3 in Resources */,
+				9F54681628FD58F100394A11 /* backgroundMusic.mp3 in Resources */,
+				9F7AD74B28FD9958008E4843 /* running.mp3 in Resources */,
+				9F241ACE29070F2900229932 /* BuyView.xib in Resources */,
+				9FF9B01E2900304400D6A440 /* GameOverView.xib in Resources */,
+				9F12360D2900A421008EA0A5 /* laserMusic.mp3 in Resources */,
+				9FF9B00F28FFF5F600D6A440 /* SparkParticle.sks in Resources */,
+				9FF9B01328FFF6C900D6A440 /* MagicParticle.sks in Resources */,
+				9F12360929006D04008EA0A5 /* SmokeParticle.sks in Resources */,
+				9FF9AFFF28FEE15D00D6A440 /* collectCoin.mp3 in Resources */,
 				9F377F5228F6B061007BF021 /* GameScene.sks in Resources */,
+				9F377F8E28F77417007BF021 /* snowParticle.sks in Resources */,
+				9FF9B00728FF535A00D6A440 /* ExplosionParticle.sks in Resources */,
 				9F377F5D28F6B063007BF021 /* Assets.xcassets in Resources */,
+				9F377F8F28F77417007BF021 /* Assets.xcassets in Resources */,
+				9F12360F2900AA3D008EA0A5 /* laser.mp3 in Resources */,
 				9F377F6028F6B063007BF021 /* LaunchScreen.storyboard in Resources */,
+				9F241ADC2907424D00229932 /* moneyRain.json in Resources */,
+				9FF9B00B28FFE98700D6A440 /* beepWarning.mp3 in Resources */,
 				9F377F5428F6B061007BF021 /* Actions.sks in Resources */,
+				9FF5E85428F84E430026EC57 /* StartView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,14 +817,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C3FB0B41B564EAC84C5C4FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JackpotCity/Pods-JackpotCity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JackpotCity/Pods-JackpotCity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JackpotCity/Pods-JackpotCity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62CB0FBB01655B6CF839DD63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JackpotCity-JackpotCityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAC21A39BAD42F4071E589D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JackpotCity-JackpotCityUITests/Pods-JackpotCity-JackpotCityUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JackpotCity-JackpotCityUITests/Pods-JackpotCity-JackpotCityUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JackpotCity-JackpotCityUITests/Pods-JackpotCity-JackpotCityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0916BE5740769E12367FF21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JackpotCityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCC4E11D08A84BC739F9555D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JackpotCity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F377F4828F6B061007BF021 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF9B00D28FFF5C100D6A440 /* ObsctacleNode.swift in Sources */,
+				9F12360729004D41008EA0A5 /* PauseView.swift in Sources */,
+				9F241AD3290737EA00229932 /* DailyPresenter.swift in Sources */,
+				9F7AD75628FDE0E6008E4843 /* ShopCollectionViewCell.swift in Sources */,
+				9F54682628FD5D2B00394A11 /* UIView.swift in Sources */,
+				9F7AD78B28FEA2C2008E4843 /* SettingsViewController.swift in Sources */,
+				9FF9B00128FF279800D6A440 /* AlertSprite.swift in Sources */,
+				9F54682B28FD6E7800394A11 /* StartViewController.swift in Sources */,
+				9F241AD52907381D00229932 /* DailyViewController.swift in Sources */,
+				9F5FA7D929027ECC00C93046 /* Date.swift in Sources */,
+				9F1245572902AB7600C355EE /* TutorialViewController.swift in Sources */,
+				9F7AD75428FDE0CB008E4843 /* ShopPresenter.swift in Sources */,
+				9F54681D28FD59C800394A11 /* Router.swift in Sources */,
+				9F7AD75928FDE241008E4843 /* CharacterModel.swift in Sources */,
+				9F7AD78D28FEA2D6008E4843 /* SettingsPresenter.swift in Sources */,
 				9F377F5628F6B061007BF021 /* GameScene.swift in Sources */,
+				9F377F8B28F71D26007BF021 /* PhysicCategory.swift in Sources */,
+				9FF9B00328FF32B600D6A440 /* SKSpriteNode.swift in Sources */,
+				9F54681328FD583800394A11 /* AudioManager.swift in Sources */,
+				9FF9B00528FF43FB00D6A440 /* RocketNode.swift in Sources */,
+				9FFAC24829003EB9001BFCD9 /* UIProgressView.swift in Sources */,
+				9F12360B29008AB2008EA0A5 /* LaserNode.swift in Sources */,
+				9F377F8628F6C1D3007BF021 /* BackgroundNode.swift in Sources */,
+				9F91CB7F29081AFC00C6CBC7 /* ButtonTableViewCell.swift in Sources */,
 				9F377F5828F6B061007BF021 /* GameViewController.swift in Sources */,
+				9F91CB7D290817F300C6CBC7 /* PrivacyPolicyViewController.swift in Sources */,
+				9F54681928FD596700394A11 /* BaseViewController.swift in Sources */,
+				9FF9B01B290020BC00D6A440 /* ObstacleSprite.swift in Sources */,
 				9F377F5028F6B061007BF021 /* AppDelegate.swift in Sources */,
+				9F54682328FD5AAB00394A11 /* GamePresenter.swift in Sources */,
+				9F54682D28FD6E8600394A11 /* StartPresenter.swift in Sources */,
+				9FF9B00928FFE78B00D6A440 /* CGFloat.swift in Sources */,
+				9F7AD79128FEA9D1008E4843 /* SwitchTableViewCell.swift in Sources */,
+				9FBB1C66290744B800F42241 /* LoaderViewController.swift in Sources */,
+				9F7AD75228FDE0AA008E4843 /* ShopViewController.swift in Sources */,
+				9FF9AFFD28FEBE2600D6A440 /* CoinNode.swift in Sources */,
+				9F7AD75B28FDE473008E4843 /* SettingsManager.swift in Sources */,
+				9F377F8828F6EE99007BF021 /* PlayerNode.swift in Sources */,
+				9F1245552902AB4200C355EE /* TutorialPresenter.swift in Sources */,
+				9F241ACD29070F2900229932 /* BuyView.swift in Sources */,
+				9F7AD78F28FEA34C008E4843 /* SettingsTableViewCell.swift in Sources */,
+				9FF5E85628F84E610026EC57 /* StartView.swift in Sources */,
+				9FF9B0202900353100D6A440 /* GameOverView.swift in Sources */,
+				9F54681B28FD599000394A11 /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,62 +1140,85 @@
 		};
 		9F377F7A28F6B064007BF021 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D952E228406015FA46C51298 /* Pods-JackpotCity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = JackpotCity/JackpotCity.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62C374FX49;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 9JUMTM2F9M;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CityQuest;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.JackpotCity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flywings.jackpotCity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "JackpotCity Provisioning Profile";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9F377F7B28F6B064007BF021 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9519493914BD316EFF93B866 /* Pods-JackpotCity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = JackpotCity/JackpotCity.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62C374FX49;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 9JUMTM2F9M;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CityQuest;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.JackpotCity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flywings.jackpotCity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "JackpotCity Provisioning Profile";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		9F377F7D28F6B064007BF021 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3973E1A5BD2754BE5A5040 /* Pods-JackpotCityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +1239,7 @@
 		};
 		9F377F7E28F6B064007BF021 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D92ACE7275E6D078CF647C4 /* Pods-JackpotCityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +1260,7 @@
 		};
 		9F377F8028F6B064007BF021 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E74DF829DBA4EEE80162CA4C /* Pods-JackpotCity-JackpotCityUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +1279,7 @@
 		};
 		9F377F8128F6B064007BF021 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95CE89E3E57897AF8AB26653 /* Pods-JackpotCity-JackpotCityUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
