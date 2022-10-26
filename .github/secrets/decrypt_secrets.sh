@@ -3,7 +3,7 @@ set -eo pipefail
 
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
 
-cp ./.github/secrets/JackpotCity_Provisioning_Profile.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/JackpotCity_Provisioning_Profile.mobileprovision
+cp ./.github/secrets/JackpotCityProvisioningProfile.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/JackpotCityProvisioningProfile.mobileprovision
 
 
 security create-keychain -p "" build.keychain

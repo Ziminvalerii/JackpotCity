@@ -9,7 +9,7 @@
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>com.flywings.jackpotCity</key>
-		<string>JackpotCity_Provisioning_Profile</string>
+		<string>JackpotCityProvisioningProfile</string>
 	</dict>
 </dict>
 </plist>
