@@ -212,7 +212,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="settingsButtonPressed:" destination="uxq-Ce-Hs5" eventType="touchUpInside" id="Qv1-Ww-VPa"/>
+                                            <action selector="settingsButtonPressed:" destination="uxq-Ce-Hs5" eventType="touchUpInside" id="MJ5-hB-C1f"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CE0-a6-WkF">

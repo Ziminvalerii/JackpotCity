@@ -40,28 +40,28 @@ class Router: RouterProtocol {
     func presentShopVC(at vc: UIViewController) {
         let goToVC = builder.createShopViewController(router: self)
         goToVC.modalTransitionStyle = .crossDissolve
-        goToVC.modalPresentationStyle = .fullScreen
+        goToVC.modalPresentationStyle = .overFullScreen
         vc.present(goToVC, animated: true)
     }
     
     func presentStartVC(at vc: UIViewController) {
         let goToVC = builder.createGameViewController(router: self)
         goToVC.modalTransitionStyle = .crossDissolve
-        goToVC.modalPresentationStyle = .fullScreen
+        goToVC.modalPresentationStyle = .overFullScreen
         vc.present(goToVC, animated: true   )
     }
     
     func presentSettingsVC(at vc: UIViewController) {
         let goToVC = builder.createSettingsViewController(router: self)
         goToVC.modalTransitionStyle = .crossDissolve
-        goToVC.modalPresentationStyle = .fullScreen
-        vc.present(goToVC, animated: true   )
+        goToVC.modalPresentationStyle = .overFullScreen
+        vc.present(goToVC, animated: true)
     }
     
     func presentTutorialVC(at vc: UIViewController) {
         let goToVC = builder.createTutorialViewController(router: self)
         goToVC.modalTransitionStyle = .crossDissolve
-        goToVC.modalPresentationStyle = .fullScreen
+        goToVC.modalPresentationStyle = .overFullScreen
         vc.present(goToVC, animated: true)
     }
     

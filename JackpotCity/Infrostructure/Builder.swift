@@ -21,38 +21,38 @@ protocol BuilderProtocol {
 class Builder: BuilderProtocol {
     
     func createGameViewController(router: RouterProtocol) -> UIViewController {
-        let vc = GameViewController.instantiateMyViewController()
+        guard let vc = GameViewController.instantiateMyViewController() else { return UIViewController()}
         vc.presenter = GamePresenter(view: vc, router: router)
         return vc
     }
     
     func createStartViewController(router: RouterProtocol) -> UIViewController {
-        let vc = StartViewController.instantiateMyViewController()
+        guard let vc = StartViewController.instantiateMyViewController() else { return UIViewController()}
         let presenter = StartPresenter(view: vc, router: router)
         vc.presenter = presenter
         return vc
     }
     
     func createShopViewController(router: RouterProtocol) -> UIViewController {
-        let vc = ShopViewController.instantiateMyViewController()
+        guard let vc = ShopViewController.instantiateMyViewController() else { return UIViewController()}
         vc.presenter = ShopPresenter(view: vc, router: router)
         return vc
     }
     
     func createSettingsViewController(router: RouterProtocol) -> UIViewController {
-        let vc = SettingsViewController.instantiateMyViewController()
+        guard let vc = SettingsViewController.instantiateMyViewController() else {return UIViewController()}
         vc.presenter = SettingsPresenter(view: vc, router: router)
         return vc
     }
     
     func createTutorialViewController(router: RouterProtocol) -> UIViewController {
-        let vc = TutorialViewController.instantiateMyViewController()
+        guard let vc = TutorialViewController.instantiateMyViewController() else { return UIViewController()}
         vc.presenter = TutorialPresenter(view: vc, router: router)
         return vc
     }
     
     func createDailyViewController(router: RouterProtocol, updateDailyButtonDelegate: DailyUpdateProtocol?) -> UIViewController {
-        let vc = DailyViewController.instantiateMyViewController()
+        guard let vc = DailyViewController.instantiateMyViewController() else { return UIViewController()}
         vc.presenter = DailyPresenter(view: vc, router: router, updateDailyButtonDelegate: updateDailyButtonDelegate)
         return vc
     }

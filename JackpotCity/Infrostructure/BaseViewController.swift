@@ -29,10 +29,12 @@ class BaseViewController<T>: UIViewController {
     }
     
     
-    class func instantiateMyViewController() -> Self {
+    class func instantiateMyViewController() -> Self? {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: String(describing: self)) as! Self
-        return vc
+        if let vc = storyboard.instantiateViewController(withIdentifier: String(describing: self)) as? Self {
+            return vc
+        }
+        return nil
     }
     /*
     // MARK: - Navigation
