@@ -10,16 +10,27 @@ import GameKit
 
 class StartViewController: BaseViewController<StartPresenterProtocol>, StartsView, GKGameCenterControllerDelegate {
 
+    @IBOutlet weak var stackView: UIStackView!
     @IBOutlet weak var bonusButton: UIButton!
     @IBOutlet weak var bestScoreLabel: UILabel!
     var shopLeftConstraint: NSLayoutConstraint?
     @IBOutlet weak var playButton: UIButton! {
         didSet {
-            playButton.animateShaking()
+//            playButton.animateShaking()
 //            playButton.contentMode = .
-            playButton.doGlowAnimation(withColor: .white, withEffect: .big)
+//            playButton.doGlowAnimation(withColor: .white, withEffect: .big)
         }
     }
+    
+    lazy var optionsButton: UIButton = {
+        let button = UIButton()
+        button.setTitle("OPTIONS", for: .normal)
+        button.setBackgroundImage(UIImage(named: "rectagleButton"), for: .normal)
+        button.titleLabel?.font = UIFont(name: "Copperplate Bold", size: 20)!
+        button.addTarget(self, action: #selector(optionsButtonPressed), for: .touchUpInside)
+        return button
+    }()
+    
     @IBOutlet weak var settingsButton: UIButton! {
         didSet {
 //            settingsButton.animatePulse()
@@ -31,6 +42,7 @@ class StartViewController: BaseViewController<StartPresenterProtocol>, StartsVie
         super.viewDidLoad()
 
         shopLeftConstraint = view.constraints.first(where: {$0.identifier == "stackViewCenterX"})
+        stackView.insertArrangedSubview(optionsButton, at: 2)
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
@@ -47,11 +59,16 @@ class StartViewController: BaseViewController<StartPresenterProtocol>, StartsVie
             self.view.layoutIfNeeded()
         } completion: { success in
             if success {
-                self.playButton.animateShaking()
-                self.playButton.doGlowAnimation(withColor: .white, withEffect: .big)
+//                self.playButton.animateShaking()
+//                self.playButton.doGlowAnimation(withColor: .white, withEffect: .big)
             } 
         }
     }
+    
+    @objc func optionsButtonPressed() {
+        presenter.goToSettingsVC(at: self)
+    }
+    
     @IBAction func bonusButtonPressed(_ sender: Any) {
         presenter.goToDailyVC(at: self, delegate: self)
     }
@@ -59,9 +76,6 @@ class StartViewController: BaseViewController<StartPresenterProtocol>, StartsVie
     @IBAction func playButtonPressed(_ sender: Any) {
         AudioManager.shared.vibrate()
         presenter.goToGameVC(at: self)
-    }
-    @IBAction func settingsButtonPressed(_ sender: Any) {
-        presenter.goToSettingsVC(at: self)
     }
     @IBAction func shopButtonPressed(_ sender: Any) {
         presenter.goToShopVC(at: self)
