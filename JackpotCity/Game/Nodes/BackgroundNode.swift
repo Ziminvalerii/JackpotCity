@@ -165,7 +165,6 @@ class BackgroundNode: SKSpriteNode {
     func stopAnimation() {
         let backgroundNodes = self.children.filter({$0.name == "scroll_background"})
         for background in backgroundNodes {
-//            background.removeAction(forKey: "background_scroll")
             
             let action = background.action(forKey: "background_scroll")
             backgroundSpeed = action?.speed ?? 0.0
@@ -176,7 +175,6 @@ class BackgroundNode: SKSpriteNode {
     func resumeAnimation() {
         let backgroundNodes = self.children.filter({$0.name == "scroll_background"})
         for background in backgroundNodes {
-//            background.removeAction(forKey: "background_scroll")
             let action = background.action(forKey: "background_scroll")
             action?.speed = backgroundSpeed
         }
@@ -246,28 +244,7 @@ class BackgroundNode: SKSpriteNode {
             }
             
         }
-//        var randomX = CGFloat.random(in: -(bg.size.width/2) ... (bg.size.width/2 - 100))
-//        var randomY = CGFloat.random(in: -(bg.size.height/2) ... (bg.size.height/2 - 100))
-//        let obstacle = ObstacleSprite()
-//        if Bool.random() {
-//            obstacle.zRotation = CGFloat.random(in: CGFloat(0).degreesToRadians() ... CGFloat(360).degreesToRadians())
-//
-//        } else {
-//            obstacle.startRotating()
-//        }
-//        obstacle.position = CGPoint(x: randomX, y: randomY)
-//        bg.addChild(obstacle)
-//        let coinNode = self.getAllCoins()
-//
-//        let array: [SKNode] = []
-//        for i in coinNode {
-//            while obstacle.intersects(i) {
-//                randomX = CGFloat.random(in: -(bg.size.width/2) ... (bg.size.width/2 - 100))
-//                randomY = CGFloat.random(in: -(bg.size.height/2) ... (bg.size.height/2 - 100))
-//                obstacle.position = CGPoint(x: randomX, y: randomY)
-//            }
-//
-//        }
+
         
     }
     
@@ -340,107 +317,6 @@ class BackgroundNode: SKSpriteNode {
             if self.duration > 1.5 {
                 self.duration -= 0.1
             }
-        }
-        for bg in backgroundNodes {
-            if bg.position.x <= -(self.size.width) {
-//                DispatchQueue.main.async {
-//                    bg.position.x = ((self.size.width) * 2)
-//                }
-//                bg.children.forEach { node in
-//                    node.removeFromParent()
-//                }
-
-//                let backgroundNode = self.children.filter({$0.name == "scroll_background"})
-//                for background in backgroundNode {
-//                    let action = background.action(forKey: "background_scroll")
-//                    action?.speed += 0.01
-//                }
-//                spawnCoin(at: bg)
-//                spawnObscle(at: bg)
-
-//                if Date() - spawnRocket > 10 {
-//                    spawnRocket = Date()
-//                   if Bool.random() {
-//                       let alert = AlertSprite()
-//                       alert.position = CGPoint(x: self.size.width/2 - 100 , y: 0)
-//                       self.addChild(alert)
-//
-//                       alert.followCharacter(player, duration: duration) {
-//                           let rocket = RocketNode()
-//                           rocket.position = CGPoint(x: self.size.width/2 + rocket.size.width/2, y: alert.position.y)
-//                           self.addChild(rocket)
-//       //                    rocket.moveToX(-self.size.width/2 - rocket.size.width/2, duration: 5)
-//                        let moveAction = SKAction.moveTo(x: -self.size.width, duration: 3)
-//                           moveAction.speed = self.moveActionSpeen
-//                           rocket.run(moveAction)
-//                           print(alert.position.y)
-//                           alert.removeFromParent()
-//                       }
-//                    }
-//                    if moveActionSpeen < 2 {
-//                        moveActionSpeen += 0.1
-//                    }
-//                    if duration > 1.5 {
-//                        duration -= 0.1
-//                    }
-//                }
-                
-                
-                
-                
-                //                for i in 0..<coinNode.count {
-                //                    for j in 0..<coinNode.count - 1 {
-                //                        if coinNode[j].intersects(coinNode[j + 1]) {
-                //                            print("intersects")
-                //                        }
-                //                    }
-                //                }
-                
-//                                let alert = AlertSprite()
-//                                alert.position = CGPoint(x: self.size.width/2 - 100 , y: 0)
-//                                self.addChild(alert)
-//                                alert.followCharacter(player) {
-//                                    let rocket = RocketNode()
-//                                    rocket.position = CGPoint(x: self.size.width/2 + rocket.size.width/2, y: alert.position.y)
-//                                    self.addChild(rocket)
-//                //                    rocket.moveToX(-self.size.width/2 - rocket.size.width/2, duration: 5)
-//                                    rocket.run(SKAction.moveTo(x: -self.size.width, duration: 3))
-//                                    print(alert.position.y)
-//                                    alert.removeFromParent()
-//
-//                                }
-//                                let laser = LaserNode(with: size)
-//                                laser.startAnimation {
-//                                    let waitAction = SKAction.wait(forDuration: 3)
-//                                    let deleteAction = SKAction.run {
-//                                        laser.run(SKAction.fadeOut(withDuration: 1)) {
-//                                            laser.removeFromParent()
-//                                        }
-//                                    }
-//                                    laser.run(SKAction.sequence([waitAction,deleteAction]))
-//                                }
-//                                laser.position = .zero
-//
-//                                self.addChild(laser)
-                
-                
-                
-                //                let obsctacle = createObstacle()
-                //                obsctacle.position = CGPoint(x: -size.width/2, y: 0)
-                //                bg.addChild(obsctacle)
-                //
-                //                let coinNodeArray = getAllCoins()
-                //
-                //                for i in coinNodeArray {
-                //                    if obsctacle.intersects(i) {
-                //                        print("obsctacle inside coin")
-                //                    }
-                //
-                //                }
-                
-                
-            }
-            
         }
         
     }
